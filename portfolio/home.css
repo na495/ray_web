@@ -1,0 +1,237 @@
+
+/* 필요한 css */
+.hidden {
+    display: none !important;
+}
+.view{
+    display: block !important;
+}
+
+/* 경고창 */
+.Error{
+    display: none;
+}
+
+/* 홈 화면 */    
+.text{
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    color: #C3CCE3;
+    font-size: 90px;
+    letter-spacing: 5px;
+    top: 50%;
+    position: absolute;
+    margin-top: -40px;
+    opacity: 0;
+
+    animation : FadeIn 2s;
+    animation-fill-mode: forwards;
+    
+    text-shadow: -1px -1px 0px white,
+        3px 3px 0px #A2AABD,
+        6px 6px 0px #818796;
+}
+.text span{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background:linear-gradient(to right, rgba(225, 225, 225,0) 50%, #C3CCE3 50%);
+    background-size: 200%;
+    transition: .35s;
+}
+.text span:hover{
+    background-position: -100% 0;
+    color: white;
+    text-shadow: none
+
+}
+.title_div{
+    margin-top: 92vh;
+    text-align: center;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    opacity: 0;
+    animation : FadeIn 3s;
+    animation-delay : 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes FadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(190, 190, 190);
+}
+.title_img
+{
+    width: 20px;
+    animation: animate 1s linear infinite;
+
+}
+@keyframes animate {
+    0% {transform: translateY(-5px);}
+    50%{transform: translateY(0px);}
+    100% {transform: translateY(-5px);}
+}
+.section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #b7c0d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: circle(0px at center center);
+}
+/* 홈화면 끝... */
+
+
+/* 본문 시작 */
+
+/* 1섹션 */
+
+.container {
+    position: relative;
+    margin-top: 120vh;
+    padding: 50px;
+    background: #b7c0d6;
+    /* background: wheat; */
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 1섹션 왼쪽 */
+.container_box{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin: 5px;
+    margin-right: 100px;
+    position: relative;
+}
+.esc{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 6px 12px;
+}
+.esc i{
+    color: rgb(158, 158, 158);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+    /* 프로필 */
+    .Profile_{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Profile_ img{
+        width: 400px;
+    }
+    
+    /* 프로젝트 */
+
+    /* 팀 */
+
+
+/* 1섹션 오른쪽 */
+.container_box2{
+    width: 400px;
+    height: 500px;
+    background-color: #818796;  
+}
+    /* 페이지 */
+    .container_paper1, .container_paper2{
+        position: absolute;
+        width: 400px;
+        height: 500px;
+        transform:rotate(5deg);
+        background-color: #A2AABD;
+    }
+    .container_paper2{
+        background-color: white;
+        transform:rotate(-2deg);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    /* 오른쪽 페이지 이미지 */
+    .paper_con{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .paper_con img:hover{
+        cursor: pointer;
+        opacity: 30%;
+    }
+
+
+
+
+/* 모바일 */
+@media(max-width: 700px){
+    .none{
+        display: none;
+    }
+    .Error{
+        display: block;
+        font-size: 15px;
+    }
+    .ErrorBtn{
+        margin-top: 10px;
+    }
+    .ErrorBtn button{
+        font-size: 15px;
+        border: none;
+        background:transparent;
+        background-color: #A2AABD;
+        color: white;
+        padding: 5px 5px;
+    }
+}
+
+
+
+/* 스크롤
+    html {
+        margin: 0;
+        height: 100%;
+    }
+
+    body{
+        height:100%;
+    }
+
+    .none {
+        overflow: auto;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-flow: column nowrap;
+        scroll-snap-type: y mandatory;
+    }
+    .none>div {
+        scroll-snap-align: start;
+        flex: none;
+    }
+
+    body{
+        scroll-behavior: smooth;
+    } */
