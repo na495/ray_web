@@ -31,7 +31,7 @@
     width: 700px;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 70px;
+    margin-right: 50px;
 }
 .header_tab_botton{
     padding: 3px;
@@ -43,7 +43,19 @@
     border: none;
     font-size: 20px;
 }
-.header_tab_botton:hover{
+.HOME:hover{
+    background-color: #99a6be;
+    cursor: pointer;
+}
+.PROFILE:hover{
+    background-color: #cfc5df;
+    cursor: pointer;
+}
+.PROJECT:hover{
+    background-color: #99a6be;
+    cursor: pointer;
+}
+.TEAMPORJECT:hover{
     background-color: #99a6be;
     cursor: pointer;
 }
