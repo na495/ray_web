@@ -28,11 +28,10 @@
 }
 .header_tab{
     display: flex;
-    width: 400px;
+    width: 700px;
     align-items: center;
     justify-content: flex-end;
     margin-right: 70px;
-    width: 500px;
 }
 .header_tab_botton{
     padding: 3px;

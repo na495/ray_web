@@ -139,9 +139,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 20px;
     }
     .Profile_ img{
-        width: 400px;
+        width: 200px;
+    }
+    .Profile_ button{
+        width: 100px;
+        height: 30px;
+        background: pink;
+        border: 1px solid lightgrey ;
     }
     
     /* 프로젝트 */
