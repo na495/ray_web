@@ -144,8 +144,18 @@
     }
     .Profile_ img{
         width: 250px;
+        margin-bottom: 20px;
     }
-    .Profile_ button{
+    .Profile_ i{
+        position: relative;
+        top: 0.07vh;
+        color: white;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    
+    /* 프로젝트 */
+    .Project_ button{
         width: 100px;
         height: 30px;
         background: #cfc5df;
@@ -155,16 +165,6 @@
         border: none;
         margin-top: 50px;
     }
-    .Profile_ i{
-        position: relative;
-        top: 0.07vh;
-        color: white;
-        font-size: 13px;
-        margin-left: 10px;
-
-    }
-    
-    /* 프로젝트 */
 
     /* 팀 */
 
