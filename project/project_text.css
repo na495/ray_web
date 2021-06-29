@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'NanumSquareRound';
+}
+
+body {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    padding: 3vh 3vw;
+    justify-content: center;
+}
+
+.back {
+    background: none;
+    width: 50px;
+    height: 50px;
+    border: none;
+    max-width: 5vh;
+    margin-right: 30px;
+}
+
+.fa-arrow-left {
+    font-size: 30px;
+    color: gray;
+    cursor: pointer;
+}
+
+
+/* 위쪽 끝 */
+
+
+/* 왼쪽 */
+
+.body2 {
+    padding: 10px;
+    height: 100%;
+    margin-right: 20px;
+    flex: 4;
+}
+
+.con__ {
+    margin-top: 15px;
+}
+
+.toptitle {
+    font-size: 30px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.text {
+    font-size: 22px;
+    color: #a89db9;
+    margin-left: 15px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+
+/* 오른쪽 */
+
+.file {
+    border: olive 1px solid;
+    height: 100%;
+    flex: 4;
+}
+
+.url {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.url div {
+    border: lightgray 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+}
+
+.google {
+    margin-left: 30px;
+}
+
+.google img {
+    width: 40px;
+}
+
+.notion img {
+    width: 45px;
+}
+
+.file p {
+    margin-left: 10px;
+}

@@ -1,39 +1,46 @@
 /* 폰트 */
+
 @font-face {
     font-family: 'NanumSquareRound';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 /* 꼭 필요한 css */
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'NanumSquareRound';
 }
-    
+
+
 /* 헤더 */
-.header{
+
+#header {
     position: fixed;
     height: 10vh;
     width: 100%;
-    top: 0px; 
+    top: 0px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     z-index: 2;
 }
-.header_tab{
+
+.header_tab {
     display: flex;
     width: 700px;
     align-items: center;
     justify-content: flex-end;
     margin-right: 50px;
 }
-.header_tab_botton{
+
+.header_tab_botton {
     padding: 3px;
     padding-right: 10px;
     padding-left: 10px;
@@ -43,21 +50,27 @@
     border: none;
     font-size: 20px;
 }
-.HOME:hover{
-    background-color: #99a6be;
+
+.HOME:hover {
+    background-color: #b7c0d6;
     cursor: pointer;
 }
-.PROJECT:hover{
+
+.PROJECT:hover {
     background-color: #cfc5df;
     cursor: pointer;
 }
-.TEAMPROJECT:hover{
-    background-color: #99a6be;
+
+.TEAMPROJECT:hover {
+    background-color: #e7c4c4;
     cursor: pointer;
 }
-.header_tab_hr{
+
+.header_tab_hr {
     border: 1px solid black;
     width: 0.01px;
     height: 20px;
 }
+
+
 /* 헤더 끝 */

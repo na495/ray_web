@@ -10,6 +10,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="./home scr/icon.png">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="./header.css">
+
 </head>
 
 <body>
@@ -24,31 +25,12 @@
     </div>
     <!-- 경고창 끝 -->
     <div class="none">
-        <!-- 헤더 -->
-        <div class="header">
-            <div class="header_tab">
-                <!-- 헤더 탭 시작 -->
-                <button type="button" class="header_tab_botton HOME" onClick="location.href='index.html'">
-                    <span>HOME</span>
-                </button>
-                <hr class="header_tab_hr">
-                <button type="button" class="header_tab_botton PROJECT" onClick="location.href='project.html'">
-                    <span>PROJECT</span>
-                </button>
-                <hr class="header_tab_hr">
-                <button type="button" class="header_tab_botton TEAMPROJECT" onClick="location.href = ''">
-                    <span>TEAM
-                        PROJECT</span>
-                </button>
-            </div>
-        </div>
-        <!-- 헤더끝 -->
         <!-- 홈 화면 시작-->
         <div>
             <h2 class="text">Hi, I'm <span>Ray</span></h2>
             <div class="title_div">
                 <p class="title">Scroll Down</p>
-                <img src="./home scr/expand_more.png" alt="" class="title_img">
+                <i class="fas fa-chevron-down"></i>
             </div>
             <div class="section">
             </div>
@@ -63,19 +45,26 @@
                 <!-- 프로필 -->
                 <div class="Profile_ hidden">
                     <img src="./home scr/me2.png" alt="">
-                    <p>안녕하세요. 저는 레이입니다.</p>
-                    <a href="mailto:nayeon9636.1@gmail.com" title="메일보내기" class="mail">nayeon9636.1@gmail.com</a>
-
-
+                    <span>김나연</span>
+                    <p>성년월일 : 2005년 10월 23일</p>
+                    <p>E-Mail : nayeon9636.1@gmail.com
+                        <p>성격 유형 : ISFP</p>
+                        <a href="mailto:nayeon9636.1@gmail.com" title="종이 비행기 날리기" class="mail">
+                            <i class="far fa-paper-plane"></i>
+                        </a>
                 </div>
 
                 <!-- 프로젝트 -->
                 <div class="Project_ hidden">
+                    <img src="./home scr/TimeLine.jpg" alt="">
+                    <p>개인주제 프로젝트</p>
                     <button onClick="location.href = 'project.html'">더 알아보기</button>
                 </div>
 
                 <!-- 팀 -->
                 <div class="Team_ hidden">
+                    <img src="./home scr/Team.jpg" alt="">
+                    <p>문제정의 프로젝트</p>
                     <button onClick="location.href = 'team.html'">더 알아보기</button>
                 </div>
             </div>
@@ -84,9 +73,9 @@
                 <div class="container_paper1"></div>
                 <div class="container_paper2">
                     <div class="paper_con">
-                        <img src="./home scr/protfile/1.jpg" class="Profile_img" onclick="Profile()">
-                        <img src="./home scr/protfile/2.jpg" class="Project_img" onclick="Project()">
-                        <img src="./home scr/protfile/3.jpg" class="Team_img" onclick="Team()">
+                        <img src="./home scr/profile/1.jpg" class="Profile_img" onclick="Profile()">
+                        <img src="./home scr/profile/2.jpg" class="Project_img" onclick="Project()">
+                        <img src="./home scr/profile/3.jpg" class="Team_img" onclick="Team()">
                     </div>
                 </div>
             </div>
@@ -96,7 +85,7 @@
 
     </div>
     <script type="text/javascript" src="home.js"></script>
-
+    <script type="text/javascript" src="git/ray_web/header.js"></script>
 </body>
 
 </html>

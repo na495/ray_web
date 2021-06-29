@@ -2,35 +2,70 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="U=" X-UA-Compatible content="IE=edge ">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
     <title>레이의 포토폴리오</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./home scr/icon.png">
-    <link rel="stylesheet" href="./project.css">
-    <link rel="stylesheet" href="./header.css">
+    <link rel="shortcut icon " type="image/x-icon " href="./home scr/icon.png ">
+    <meta name="viewport " content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1 ">
+    <link rel="stylesheet " href="./project/slide.css" />
+    <link rel="stylesheet " href="./project/project.css">
+    <link rel="stylesheet " href="./header.css">
 </head>
 
 <body>
+
     <!-- 헤더 -->
-    <div class="header">
-        <div class="header_tab">
-            <!-- 헤더 탭 시작 -->
-            <button type="button" class="header_tab_botton HOME" onClick="location.href='index.html'">
-                <span>HOME</span>
-            </button>
-            <hr class="header_tab_hr">
-            <button type="button" class="header_tab_botton PROJECT" onClick="location.href='project.html'">
-                <span>PROJECT</span>
-            </button>
-            <hr class="header_tab_hr">
-            <button type="button" class="header_tab_botton TEAMPROJECT" onClick="location.href = ''">
-                <span>TEAM
-                    PROJECT</span>
-            </button>
-        </div>
+    <div id="header">
+        <script type="text/javascript " src="./header.js"></script>
     </div>
     <!-- 헤더끝 -->
+    <section class="container_ ">
+        <!-- 첫번째 슬라이드 -->
+        <p class="title">개인주제 프로젝트</p>
+        <!-- swiper슬라이더 메인컨테이너 -->
+        <div class="swiper-container">
+            <!-- 보여지는 영역 -->
+            <div class="swiper-wrapper num1">
+                <!-- <div class="swiper-slide M1" onClick="location.href='./project/project_text.html?${i}'">
+                        <p class="slide_title">2020 2M</p>
+                        <div class="text_Box">
+                            <p>개인주제</p>
+                        </div>
+                    </div> -->
+            </div>
+            <!-- 페이징 버튼 처리 -->
+            <div class="swiper-pagination"></div>
+
+            <!-- 방향 버튼 상황에 따라 추가 삭제가능 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <!-- 두번째 슬라이드 -->
+    <section class="container_">
+        <p class="title">주제중심 프로젝트</p>
+        <div class="swiper-container">
+            <!-- 보여지는 영역 -->
+            <div class="swiper-wrapper num2">
+                <!-- <div class="swiper-slide M1" onClick="location.href='./project/project_text.html?${i}'">
+                    <p class="slide_title">2020 2M</p>
+                    <div class="text_Box">
+                        <p>개인주제</p>
+                    </div>
+                </div> -->
+            </div>
+            <!-- 페이징 버튼 처리 -->
+            <div class="swiper-pagination"></div>
+
+            <!-- 방향 버튼 상황에 따라 추가 삭제가능 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js "></script>
+    <script type="text/javascript" src="./project/project_list.js"></script>
+    <script type="text/javascript" src="./project/project.js"></script>
 </body>
 
 </html>

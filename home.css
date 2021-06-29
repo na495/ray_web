@@ -6,6 +6,9 @@
 .view{
     display: block !important;
 }
+a{
+    text-decoration: none;
+}
 
 /* 경고창 */
 .Error{
@@ -69,10 +72,12 @@
     margin-bottom: 5px;
     color: rgb(190, 190, 190);
 }
-.title_img
+
+.fa-chevron-down
 {
     width: 20px;
     animation: animate 1s linear infinite;
+    color: rgb(190, 190, 190);
 
 }
 @keyframes animate {
@@ -143,8 +148,8 @@
         color: gray;
     }
     .Profile_ img{
-        width: 250px;
-        margin-bottom: 20px;
+        width: 210px;
+        margin-bottom: 30px;
     }
     .Profile_ i{
         position: relative;
@@ -153,20 +158,81 @@
         font-size: 13px;
         margin-left: 10px;
     }
+    .Profile_ span{
+        margin-bottom: 30px;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .Profile_ p{
+        margin-bottom: 10px;
+    }
+    .Profile_ .fa-paper-plane{
+        color: rgba(128, 128, 128, 0.699);
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .Profile_ .fa-paper-plane:hover{
+        color: #b7c0d6;
+    }
     
     /* 프로젝트 */
+    .Project_{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Project_ img{
+        margin-top: 60px;
+    }
     .Project_ button{
         width: 100px;
         height: 30px;
-        background: #cfc5df;
+        background: #D9CEEB;
         color: white;
         cursor: pointer;
         padding: 5px;
         border: none;
-        margin-top: 50px;
+        margin-top: 35px;
+    }
+    .Project_ button:hover{
+        background: #b8afc5;
+    }
+    .Project_ p{
+        color: gray;
+        font-size: 20px;
+        margin-top: 20px;
     }
 
     /* 팀 */
+    .Team_{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .Team_ img{
+        margin-top: 30px;
+    }
+    .Team_ p{
+        color: gray;
+        margin-top: 20px;
+        margin-bottom: 43px;
+        font-size: 20px;
+    }
+    .Team_ button{
+        width: 100px;
+        height: 30px;
+        background: #e7c4c4;
+        color: white;
+        cursor: pointer;
+        padding: 5px;
+        border: none;
+    }
+    .Team_ button:hover{
+        background: #b49b9b;
+    }
 
 
 /* 1섹션 오른쪽 */
@@ -174,6 +240,9 @@
     width: 400px;
     height: 500px;
     background-color: #818796;  
+    /* display: none; */
+    /* animation : FadeIn 2s; */
+    /* animation-fill-mode: forwards; */
 }
     /* 페이지 */
     .container_paper1, .container_paper2{
@@ -182,12 +251,18 @@
         height: 500px;
         transform:rotate(5deg);
         background-color: #A2AABD;
+        /* display: none; */
+        /* animation : FadeIn 2s; */
+        /* animation-fill-mode: forwards; */
     }
+    /* .container_paper1{
+        animation-delay : 0.5s;
+    } */
     .container_paper2{
-        background-color: white;
         transform:rotate(-2deg);
         display: flex;
         flex-direction: column;
+        /* animation-delay : 1s; */
     }
     
     

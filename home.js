@@ -8,7 +8,7 @@ var body = document.querySelector('body');
 
 
 //스크롤을 내릴 때 발생하는 이벤트
-window.addEventListener('scroll', function () {
+window.addEventListener('scroll', function() {
     let value = window.scrollY;
     section.style.clipPath = "circle(" + value + "px at center center)";
     let scrollLocation = document.documentElement.scrollTop; // 현재 스크롤바 위치
@@ -16,15 +16,15 @@ window.addEventListener('scroll', function () {
     if (scrollLocation > 55) {
         title_div.style.visibility = "hidden"
         text.style.display = "none"
-
+        if (scrollLocation > 945) {
+            Fadein()
+        }
         if (scrollLocation > 1724) {
             section.style.display = "none"
-        }
-        else {
+        } else {
             section.style.display = "block"
         }
-    }
-    else {
+    } else {
         title_div.style.visibility = "visible"
         text.style.display = "block"
     }
@@ -53,6 +53,7 @@ function Profile() {
     PJtext.classList.add('hidden')
     Ttext.classList.add('hidden')
 }
+
 function Project() {
     container_box.classList.remove('hidden')
     PJtext.classList.toggle('hidden')
@@ -60,6 +61,7 @@ function Project() {
     PFtext.classList.add('hidden')
     Ttext.classList.add('hidden')
 }
+
 function Team() {
     container_box.classList.remove('hidden')
     Ttext.classList.toggle('hidden')
@@ -67,6 +69,7 @@ function Team() {
     PJtext.classList.add('hidden')
     PFtext.classList.add('hidden')
 }
+
 function esc() {
     container_box.classList.add('hidden')
     PJtext.classList.add('hidden')
