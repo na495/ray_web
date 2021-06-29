@@ -113,18 +113,9 @@ section {
 
 /*이미지 */
 
-.M1 {
-    background-size: 100%;
-}
-
-.M2 {
-    background-size: 100%;
-}
-
-.M3 {
-    background-size: 100%;
-}
-
+.M1,
+.M2,
+.M3,
 .M4 {
-    background-size: 100%;
+    background-size: cover;
 }

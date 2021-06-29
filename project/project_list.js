@@ -1,5 +1,5 @@
 var project = [{
-        img: './project/project scr/test.jpeg',
+        img: './project/project_img/test.jpeg',
         class: "M1",
         day: '2020Y 1M',
         title: '사회 풍자를 배우고 직접 글을 써보자',
@@ -7,11 +7,12 @@ var project = [{
         how: '풍자할 사회 문제를 선정하기 위해 우리나라의 사회 문제에 대해 탐색하였고, 그 중 문제가 된 촉법소년이라는 사회 문제에 대한 사례를 찾아보았다.',
         what: '피노키오 이야기와 사회 문제인 촉법 소년를 결합하여 스토리 보드를 쓰고 소설을 써보았다. 또한 이 과정에서 배운 개념에 대해 이북을 제작하고 발표하였다.',
         text: '촉법소년에 대한 사회 문제와 풍자에대한 개념을 배울 수 있던 좋은 기회였고, 소설을 처음 써보았기 때문에 아쉬움이 많았지만 새로운 경험이 된 것 같다.',
+        innerimg: './project/project_img/test.jpeg',
         url1: 'https://www.notion.so/6ea170b0bce64c8d960298de3de959a9?v=c3d7bcf228df46c9bc4ac6c5caf40110',
         url2: ''
     },
     {
-        img: './project/project scr/test.jpeg',
+        img: './project/project_img/test.jpeg',
         class: "M2",
         day: '2020Y 2M',
         title: '인포그래픽을 만들어 보자',
@@ -19,11 +20,12 @@ var project = [{
         how: '다양한 인포그래픽의 종류에 대해 조사해보고, 인포그래픽 관련 도서를 읽으며 인포그래픽을 효과적으로 제작하기 위한 디자인 방법과 기획 방법을 나눠 정리하였다.',
         what: '피노키오 이야기와 사회 문제인 촉법 소년를 결합하여 스토리 보드를 쓰고 소설을 써보았다. 또한 이 과정에서 배운 개념에 대해 이북을 제작하고 발표하였다.',
         text: '촉법소년에 대한 사회 문제와 풍자에대한 개념을 배울 수 있던 좋은 기회였고, 소설을 처음 써보았기 때문에 아쉬움이 많았지만 새로운 경험이 된 것 같다.',
+        innerimg: './project/project_img/test.jpeg',
         url1: 'https://www.notion.so/b2914ac52c7e4f2f9f4e6f1ba1420c00',
         url2: ''
     },
     {
-        img: './project/project scr/test.jpeg',
+        img: './project/project_img/test.jpeg',
         class: "M3",
         day: '2020Y 3M',
         title: '에프터 이펙트로 동영상 만들기',
@@ -31,13 +33,14 @@ var project = [{
         how: '풍자할 사회 문제를 선정하기 위해 우리나라의 사회 문제에 대해 탐색하였고, 그 중 문제가 된 촉법소년이라는 사회 문제에 대한 사례를 찾아보았다.',
         what: '피노키오 이야기와 사회 문제인 촉법 소년를 결합하여 스토리 보드를 쓰고 소설을 써보았다. 또한 이 과정에서 배운 개념에 대해 이북을 제작하고 발표하였다.',
         text: '촉법소년에 대한 사회 문제와 풍자에대한 개념을 배울 수 있던 좋은 기회였고, 소설을 처음 써보았기 때문에 아쉬움이 많았지만 새로운 경험이 된 것 같다.',
+        innerimg: './project/project_img/test.jpeg',
         url1: 'https://www.notion.so/890c43dc856642d8a994bda202b668fd',
         url2: ''
     },
 ]
 
 var project2 = [{
-        img: './project/project scr/test.jpeg',
+        img: './project/project_img/test.jpeg',
         class: "M1",
         day: '2020Y 1M',
         title: '바이러스로 인한 우리의 대처와 변화',
@@ -45,11 +48,12 @@ var project2 = [{
         how: '바이러스와 사회현상을 다양한 과목의 관점으로 보게 되었다. 바이러스로 인해 변화된 교육방식, 바이러스의 구조와 인체에 바이러스가 전염되는 과정, 역사적으로 전염병이 발생한 이후의 사회 변화 등, 바이러스에 대한 학습을 하게 되었다.',
         what: '바이러스로 인한 사회 변화와 나의 실생활 변화에 대해 연결해보고, 바이러스가 우리 몸에 미치는 영향과 과정, 이후 대처에 대해 이북을 제작하였다.',
         text: '전염병이 그냥 어느순간 감염되는 것이 아닌 우리 몸에 어러한 과정을 거치고 어떠한 구조로 생겼는지 학습하고 나니 바이러스가 두렵게만 느껴지진 않게 되었다. 또한 역사적으로 전염병에 대한 사회 변화를 인과 관계를 중심으로 학습하니 이해하기 쉬웠고 더 흥미로웠다.',
+        innerimg: './project/project_img/test.jpeg',
         url1: 'https://www.notion.so/2020Y-1M-0c53071b1d04416a97ccbe2ed10602bd',
         url2: ''
     },
     {
-        img: './project/project scr/test.jpeg',
+        img: './project/project_img/test.jpeg',
         class: "M2",
         day: '2020Y 2M',
         title: '일하는 모든 노동자는 공정한 대우를 받고 있을까?',
@@ -57,11 +61,12 @@ var project2 = [{
         how: '일자리와 평등의 대한 개념을 각 과목과 연게하여 학습을 진행하였고, 비정규직과 정규직, 고용의 형태, 평등의 정의, 인종 간의 차이에 대해 배울 수 있었다. 또한 자신이 생각하는 정의관에 대한 토론도 진행할 수 있었다.',
         what: '인종, 고용의 형태에 따른 불평등을 정리하고 문학에서 드러난 과거의 불평등은 어땠는지를 정리해 보았다. 또 이러한 불평등의 문제와 해결방안에 대하여 발표하였다.',
         text: '사회에서 알아야할 고용의 형태에 대해 배울 수 있어서 좋은 경험이었고, 현재의 노동자의 불평등과 문제에 대해 객관적으로 배우고 해결책을 고민해보는 과정에서 사회를 보는 눈이 더 넓어진 것 같아 유익한 학습이었다.',
+        innerimg: './project/project_img/test.jpeg',
         url1: 'https://www.notion.so/2020Y-2M-af5632f048994aa49a8f890b152f615a',
         url2: ''
     },
     {
-        img: './project/project scr/test.jpeg',
+        img: './project/project_img/test.jpeg',
         class: "M3",
         day: '2020Y 3M',
         title: '첫 번째 V.LAB',
@@ -69,11 +74,12 @@ var project2 = [{
         how: '지속가능한 도시를 만들기 위해 도시가 가져야할 조건이나 방법을 과목과 연계하여 배우고 지속가능한 도시의 개념을 학습하였다.',
         what: '지속가능한 도시를 위해 노력해야할 수많은 조건 중, 우리 팀은 도시브랜딩이라는 마케팅 방법 또한 지속가능성을 위해 필요하다고 생각하게 되었고, 실습을 위해 인청의 도시브랜딩을 진행하고 발표하였다.',
         text: '지속가능한 도시의 조건과 개념에 대해 알 수 있는 좋은 경험이 되었고, 또한 도시브랜딩을 실습하며 인천에 대한 새로운 정보를 알 수 있었고, 도시브랜딩이라는 새로운 마케팅 방법을 유익한 모듈이었던 것 같다.',
+        innerimg: './project/project_img/test.jpeg',
         url1: 'https://www.notion.so/V-3b9eba0a3cc74637b701ab2429362760',
         url2: ''
     },
     {
-        img: './project/project scr/test.jpeg',
+        img: './project/project_img/test.jpeg',
         class: "M4",
         day: '2020Y 4M',
         title: '도시브랜딩',
@@ -81,11 +87,12 @@ var project2 = [{
         how: '지속가능한 도시를 만들기 위해 도시가 가져야할 조건이나 방법을 과목과 연계하여 배우고 지속가능한 도시의 개념을 학습하였다.',
         what: '지속가능한 도시를 위해 노력해야할 수많은 조건 중, 우리 팀은 도시브랜딩이라는 마케팅 방법 또한 지속가능성을 위해 필요하다고 생각하게 되었고, 실습을 위해 인청의 도시브랜딩을 진행하고 발표하였다.',
         text: '지속가능한 도시의 조건과 개념에 대해 알 수 있는 좋은 경험이 되었고, 또한 도시브랜딩을 실습하며 인천에 대한 새로운 정보를 알 수 있었고, 도시브랜딩이라는 새로운 마케팅 방법을 유익한 모듈이었던 것 같다.',
+        innerimg: './project/project_img/test.jpeg',
         url1: 'https://www.notion.so/2020Y-4M-0b4242b59c1142258c0623506c9f8237',
         url2: ''
     },
     {
-        img: './project/project scr/test.jpeg',
+        img: './project/project_img/test.jpeg',
         class: "M1",
         day: '2021Y 1M',
         title: '두 번째 V.LAB',
@@ -93,6 +100,7 @@ var project2 = [{
         how: '지속가능한 도시를 만들기 위해 도시가 가져야할 조건이나 방법을 과목과 연계하여 배우고 지속가능한 도시의 개념을 학습하였다.',
         what: '지속가능한 도시를 위해 노력해야할 수많은 조건 중, 우리 팀은 도시브랜딩이라는 마케팅 방법 또한 지속가능성을 위해 필요하다고 생각하게 되었고, 실습을 위해 인청의 도시브랜딩을 진행하고 발표하였다.',
         text: '지속가능한 도시의 조건과 개념에 대해 알 수 있는 좋은 경험이 되었고, 또한 도시브랜딩을 실습하며 인천에 대한 새로운 정보를 알 수 있었고, 도시브랜딩이라는 새로운 마케팅 방법을 유익한 모듈이었던 것 같다.',
+        innerimg: './project/project_img/test.jpeg',
         url1: 'https://www.notion.so/2021Y-1M-505b54d619a44660856ab5981ea540f6',
         url2: ''
     },

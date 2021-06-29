@@ -7,8 +7,8 @@ window.onload = function() {
     var con2 = project2[num];
 
     if (category == -1) {
-        document.querySelector('.toptitle').innerText = con.title
-        document.querySelector('.con__').innerHTML =
+        document.querySelector('.toptitle').innerText += con.title
+        document.querySelector('.con__').innerHTML +=
             `<br>
         <div class="why">
             <p class="text">WHY</p><br>
@@ -30,20 +30,21 @@ window.onload = function() {
             <p class="me_ title">${con.text}</p>
         </div>`
 
-        document.querySelector('.file').innerHTML =
-            `<div class="url">
-                <div class="notion" onclick="location.href='${con.url1}'">
-                    <img src="./project scr/notion.jpg">
+        document.querySelector('.file').innerHTML +=
+            `
+            <div class="url">
+                <div class="notion" oㄴnclick="location.href='${con.url1}'">
+                    <img src="./project_img/notion.jpg">
                     <p>NOTION</p>
                 </div>
                 <div class="google" onclick="location.href='${con.url2}'">
-                    <img src="./project scr/google.png">
+                    <img src="./project_img/google.png">
                     <p>GOOGLE DRIVE</p>
                 </div>
             </div>`
     } else if (category == 1) {
-        document.querySelector('.toptitle').innerText = con2.title
-        document.querySelector('.con__').innerHTML =
+        document.querySelector('.toptitle').innerText += con2.title
+        document.querySelector('.con__').innerHTML +=
             `<br>
         <div class="why">
             <p class="text">WHY</p><br>
@@ -65,14 +66,15 @@ window.onload = function() {
             <p class="me_ title">${con2.text}</p>
         </div>`
 
-        document.querySelector('.file').innerHTML =
-            `<div class="url">
-                <div class="notion" oㄴnclick="location.href='${con2.url1}'">
-                    <img src="./project scr/notion.jpg">
+        document.querySelector('.file').innerHTML +=
+            `
+            <div class="url">
+                <div class="notion" onclick="location.href='${con2.url1}'">
+                    <img src="./project_img/notion.jpg">
                     <p>NOTION</p>
                 </div>
                 <div class="google" onclick="location.href='${con2.url2}'">
-                    <img src="./project scr/google.png">
+                    <img src="./project_img/google.png">
                     <p>GOOGLE DRIVE</p>
                 </div>
             </div>`
