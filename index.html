@@ -9,7 +9,6 @@
     <title>레이의 포토폴리오</title>
     <link rel="shortcut icon" type="image/x-icon" href="./home_img/icon.png">
     <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="./header.css">
 
 </head>
 
@@ -39,53 +38,31 @@
         <!-- 1페이지 -->
         <div class="container">
             <!-- 왼쪽 -->
-            <div class="container_box hidden">
-                <div class="esc"><i class="fas fa-times" onclick="esc()"></i></div>
 
-                <!-- 프로필 -->
-                <div class="Profile_ hidden">
-                    <img src="./home_img/me2.png" alt="">
-                    <span>김나연</span>
-                    <p>성년월일 : 2005년 10월 23일</p>
-                    <p>E-Mail : nayeon9636.1@gmail.com
-                        <p>성격 유형 : ISFP</p>
-                        <a href="mailto:nayeon9636.1@gmail.com" title="종이 비행기 날리기" class="mail">
-                            <i class="far fa-paper-plane"></i>
-                        </a>
-                </div>
 
-                <!-- 프로젝트 -->
-                <div class="Project_ hidden">
-                    <img src="./home_img/TimeLine.jpg" alt="">
-                    <p>개인주제 프로젝트</p>
-                    <button onClick="location.href = 'project.html'">더 알아보기</button>
-                </div>
-
-                <!-- 팀 -->
-                <div class="Team_ hidden">
-                    <img src="./home_img/Team.jpg" alt="">
-                    <p>문제정의 프로젝트</p>
-                    <button onClick="location.href = 'team.html'">더 알아보기</button>
-                </div>
-            </div>
-            <!-- 오른쪽 -->
-            <div class="container_box2">
-                <div class="container_paper1"></div>
-                <div class="container_paper2">
-                    <div class="paper_con">
-                        <img src="./home_img/profile/1.jpg" class="Profile_img" onclick="Profile()">
-                        <img src="./home_img/profile/2.jpg" class="Project_img" onclick="Project()">
-                        <img src="./home_img/profile/3.jpg" class="Team_img" onclick="Team()">
-                    </div>
-                </div>
-            </div>
         </div>
+    </div>
 
 
 
     </div>
     <script type="text/javascript" src="home.js"></script>
-    <script type="text/javascript" src="git/ray_web/header.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
+
+    <script>
+        gsap.from(".container_box2", {
+            opacity: 0,
+            scrollTrigger: {
+                trigger: '.section',
+                markers: true,
+                scrub: true,
+                toggleActions: "restart none none reverse",
+                start: "20% 50%",
+                end: "20% top"
+            }
+        }
+    </script>
 </body>
 
 </html>

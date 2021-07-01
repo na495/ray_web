@@ -3,7 +3,6 @@ var text = document.querySelector('.text');
 var span = document.querySelector('span');
 var title_div = document.querySelector('.title_div');
 var title_img = document.querySelector('.title_img');
-var body = document.querySelector('body');
 
 
 
@@ -16,11 +15,10 @@ window.addEventListener('scroll', function() {
     if (scrollLocation > 55) {
         title_div.style.visibility = "hidden"
         text.style.display = "none"
-        if (scrollLocation > 945) {
-            Fadein()
-        }
-        if (scrollLocation > 1724) {
+
+        if (scrollLocation > 1700) {
             section.style.display = "none"
+
         } else {
             section.style.display = "block"
         }
@@ -36,43 +34,4 @@ function Mobile() {
     var body = document.querySelector(".none")
     body.classList.toggle('view')
     error_.classList.toggle('hidden')
-}
-
-
-// 1섹션 왼쪽 페이지 보이기
-var container_box = document.querySelector('.container_box')
-var PFtext = document.querySelector('.Profile_')
-var PJtext = document.querySelector('.Project_')
-var Ttext = document.querySelector('.Team_')
-
-
-function Profile() {
-    container_box.classList.remove('hidden')
-    PFtext.classList.toggle('hidden')
-
-    PJtext.classList.add('hidden')
-    Ttext.classList.add('hidden')
-}
-
-function Project() {
-    container_box.classList.remove('hidden')
-    PJtext.classList.toggle('hidden')
-
-    PFtext.classList.add('hidden')
-    Ttext.classList.add('hidden')
-}
-
-function Team() {
-    container_box.classList.remove('hidden')
-    Ttext.classList.toggle('hidden')
-
-    PJtext.classList.add('hidden')
-    PFtext.classList.add('hidden')
-}
-
-function esc() {
-    container_box.classList.add('hidden')
-    PJtext.classList.add('hidden')
-    PFtext.classList.add('hidden')
-    Ttext.classList.add('hidden')
 }

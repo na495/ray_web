@@ -33,7 +33,7 @@ window.onload = function() {
         document.querySelector('.file').innerHTML +=
             `
             <div class="url">
-                <div class="notion" oㄴnclick="location.href='${con.url1}'">
+                <div class="notion" onclick="location.href='${con.url1}'">
                     <img src="./project_img/notion.jpg">
                     <p>NOTION</p>
                 </div>
