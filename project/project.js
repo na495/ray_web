@@ -7,7 +7,7 @@ for (var i in project) {
         `<div class="swiper-slide ${PJ.class}" style="background-image: url('${PJ.img}');" onClick="location.href='./project/project_text.html?index=${i}&category=-1'">
             <p class="slide_title">${PJ.day}</p>
             <div class="text_Box">
-                <p>${PJ.title}</p>
+                <p>${PJ.title}<i class="fas fa-arrow-right"></i></p>
             </div>
          </div>`;
 }
@@ -17,7 +17,7 @@ for (var i in project2) {
         `<div class="swiper-slide ${PJ2.class}" style="background-image: url('${PJ2.img}');" onClick="category=-1;location.href='./project/project_text.html?index=${i}&category=1'">
             <p class="slide_title">${PJ2.day}</p>
             <div class="text_Box">
-                <p>${PJ2.title}</p>
+                <p>${PJ2.title}<i class="fas fa-arrow-right"></i></p>
             </div>
          </div>`;
 }

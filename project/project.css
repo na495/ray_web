@@ -95,15 +95,17 @@ section {
     color: white;
 }
 
+.fa-arrow-right {
+    font-size: 15px;
+    margin-left: 10px;
+    color: white;
+}
+
 
 /* 호버하면  */
 
 .swiper-slide:hover {
-    opacity: 80%;
-}
-
-.swiper-slide:hover>.slide_title {
-    opacity: 50%;
+    opacity: 60%;
 }
 
 .swiper-slide:hover>.text_Box {
