@@ -28,6 +28,16 @@ window.addEventListener('scroll', function() {
     }
 })
 
+// 그림자
+// let box = document.querySelector('.c1');
+// let shadow = '';
+// for (var i = 0; i < 100; i++) {
+//     shadow += (shadow ? ',' : '') + i * 1 + 'px ' + i * 1 + 'px 0 #e1e5ed';
+// }
+// box.style.boxShadow = shadow;
+
+
+
 // 모바일로 봤을 때
 function Mobile() {
     var error_ = document.querySelector('.Error')
@@ -35,3 +45,6 @@ function Mobile() {
     body.classList.toggle('view')
     error_.classList.toggle('hidden')
 }
+
+
+// Gsap

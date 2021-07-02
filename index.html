@@ -37,9 +37,9 @@
         <!-- 본문 시작 -->
         <!-- 1페이지 -->
         <div class="container">
-            <!-- 왼쪽 -->
-
-
+            <div class="box c1"></div>
+            <div class="box c2"></div>
+            <div class="box c3"></div>
         </div>
     </div>
 
@@ -47,22 +47,51 @@
 
     </div>
     <script type="text/javascript" src="home.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
-
     <script>
-        gsap.from(".container_box2", {
-            opacity: 0,
+        gsap.fromTo(".c3", {
+            opacity: '0',
+        }, {
+            opacity: '1',
             scrollTrigger: {
-                trigger: '.section',
+                trigger: '.c3',
                 markers: true,
                 scrub: true,
                 toggleActions: "restart none none reverse",
-                start: "20% 50%",
-                end: "20% top"
+                start: "top 50%",
+                end: "top 30%"
             }
-        }
+        })
+        gsap.fromTo(".c2", {
+            opacity: '0',
+        }, {
+            opacity: '1',
+            scrollTrigger: {
+                trigger: '.c2',
+                markers: true,
+                scrub: true,
+                toggleActions: "restart none none reverse",
+                start: "top 60%",
+                end: "top 30%"
+            }
+        })
+        gsap.fromTo(".c1", {
+            opacity: '0',
+        }, {
+            opacity: '1',
+            scrollTrigger: {
+                trigger: '.c1',
+                markers: true,
+                scrub: true,
+                toggleActions: "restart none none reverse",
+                start: "top 70%",
+                end: "top 30%"
+            }
+        })
     </script>
+
+
 </body>
 
 </html>

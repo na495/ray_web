@@ -72,6 +72,18 @@ body {
     align-items: center;
 }
 
+.con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.con img {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
 .innerimg {
     max-width: 450px;
 }
@@ -109,5 +121,27 @@ body {
 }
 
 .file p {
+    margin-left: 10px;
+}
+
+.google_site {
+    border: lightgray 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.google_site img {
+    width: 40px;
+    margin: 0;
+}
+
+.google_site p {
     margin-left: 10px;
 }

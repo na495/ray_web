@@ -141,10 +141,23 @@ body {
 .container {
     position: relative;
     margin-top: 110vh;
-    padding: 50px;
+    padding: 20%;
     background: #b7c0d6;
-    color: white;
-    height: 100vh;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
 }
 
 

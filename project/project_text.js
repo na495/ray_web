@@ -32,12 +32,15 @@ window.onload = function() {
 
         document.querySelector('.file').innerHTML +=
             `
+            <div class="con">
+                ${con.content}
+            </div>
             <div class="url">
-                <div class="notion" onclick="location.href='${con.url1}'">
+                <div class="notion" onclick="window.open('${con.url1}')">
                     <img src="./project_img/notion.jpg">
                     <p>NOTION</p>
                 </div>
-                <div class="google" onclick="location.href='${con.url2}'">
+                <div class="google" onclick="window.open('${con.url2}')">
                     <img src="./project_img/google.png">
                     <p>GOOGLE DRIVE</p>
                 </div>
@@ -68,12 +71,15 @@ window.onload = function() {
 
         document.querySelector('.file').innerHTML +=
             `
+            <div class="con">
+                ${con2.content}
+            </div>
             <div class="url">
-                <div class="notion" onclick="location.href='${con2.url1}'">
+                <div class="notion" onclick="window.open('${con2.url1}')">
                     <img src="./project_img/notion.jpg">
                     <p>NOTION</p>
                 </div>
-                <div class="google" onclick="location.href='${con2.url2}'">
+                <div class="google" onclick="window.open('${con2.url2}')">
                     <img src="./project_img/google.png">
                     <p>GOOGLE DRIVE</p>
                 </div>

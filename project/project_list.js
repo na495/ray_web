@@ -7,7 +7,7 @@ var project = [{
         how: '풍자할 사회 문제를 선정하기 위해 우리나라의 사회 문제에 대해 탐색하였고, 그 중 문제가 된 촉법소년이라는 사회 문제에 대한 사례를 찾아보았다.',
         what: '피노키오 이야기와 사회 문제인 촉법 소년를 결합하여 스토리 보드를 쓰고 소설을 써보았다. 또한 이 과정에서 배운 개념에 대해 이북을 제작하고 발표하였다.',
         text: '촉법소년에 대한 사회 문제와 풍자에대한 개념을 배울 수 있던 좋은 기회였고, 소설을 처음 써보았기 때문에 아쉬움이 많았지만 새로운 경험이 된 것 같다.',
-        content: '',
+        content: '<img src="./project_img/M1_1.png" alt=""><img src="./project_img/M1_2.png" alt="">',
         url1: 'https://www.notion.so/6ea170b0bce64c8d960298de3de959a9?v=c3d7bcf228df46c9bc4ac6c5caf40110',
         url2: 'https://drive.google.com/drive/folders/1LbDxVGD49A05_jBm87iTJz_u5X1G8wt1?usp=sharing'
     },
@@ -20,7 +20,12 @@ var project = [{
         how: '다양한 인포그래픽의 종류에 대해 조사해보고, 인포그래픽 관련 도서를 읽으며 인포그래픽을 효과적으로 제작하기 위한 디자인 방법과 기획 방법을 나눠 정리하였다.',
         what: '피노키오 이야기와 사회 문제인 촉법 소년를 결합하여 스토리 보드를 쓰고 소설을 써보았다. 또한 이 과정에서 배운 개념에 대해 이북을 제작하고 발표하였다.',
         text: '촉법소년에 대한 사회 문제와 풍자에대한 개념을 배울 수 있던 좋은 기회였고, 소설을 처음 써보았기 때문에 아쉬움이 많았지만 새로운 경험이 된 것 같다.',
-        content: '',
+        content: `
+                    <div class="google_site" onclick="window.open('https://sites.google.com/futureclass.net/ray/%ED%99%88')">
+                        <img src="./project_img/google_site.png">
+                        <p>INFOGRAPHIC</p>
+                    </div>
+                    <img src="./project_img/M2_1.png" style = "width: 300px;">`,
         url1: 'https://www.notion.so/b2914ac52c7e4f2f9f4e6f1ba1420c00',
         url2: 'https://drive.google.com/drive/folders/1I630iAvrYnXHrSSp1SPvQSfML68Vb5PQ?usp=sharing'
     },
@@ -29,11 +34,11 @@ var project = [{
         class: "M3",
         day: '2020Y 3M',
         title: '에프터 이펙트로 동영상 만들기',
-        why: '평소 책을 좋아하는데, 사회 풍자라는 장르가 너무 생소하고 어려워 보였기 때문에 풍자의 개념을 알아보고 싶어 진행하게 되었다.',
-        how: '풍자할 사회 문제를 선정하기 위해 우리나라의 사회 문제에 대해 탐색하였고, 그 중 문제가 된 촉법소년이라는 사회 문제에 대한 사례를 찾아보았다.',
-        what: '피노키오 이야기와 사회 문제인 촉법 소년를 결합하여 스토리 보드를 쓰고 소설을 써보았다. 또한 이 과정에서 배운 개념에 대해 이북을 제작하고 발표하였다.',
-        text: '촉법소년에 대한 사회 문제와 풍자에대한 개념을 배울 수 있던 좋은 기회였고, 소설을 처음 써보았기 때문에 아쉬움이 많았지만 새로운 경험이 된 것 같다.',
-        content: '',
+        why: '정적 인포그래픽을 배운 2모듈에서 정적인 인포그래픽에서 벗어나 동적인 인포그래픽을 제작해보고 싶었고 동영상 형태의 인포그래픽인 모션그래픽을 제작해보기로 하였다.',
+        how: '사최와 관련된 음식물 쓰레기 문제에대해 조사를 진행하고, 모션그래픽에 대해 학습해보았다. 또한 모션그래픽에 대해 학습하며 몇개의 영상을 제작해보았다.',
+        what: '한 모듈 동안 조사한 음식물 쓰레기에 대한 문제점을 정리하여 보여주고, 음식물 쓰레기 문제를 담아낸 모션그래픽을 제작하여 발표하였다.',
+        text: '모션그래픽을 만들기 위해 사용한 에프터 이펙트를 조금이나마 익혀보고 사용해 봐서 좋았던 것 같고, 사최와 연계하여 진행하여 더 깊이 있는 학습을 하게 된 것 같고, 모션그래픽을 보면 그냥 멋있네만 느꼈는데 직접 만들어보니 이 결과물을 만드는 과정에서 얼마나 많은 노력이 있엇는지를 배울 수 있게 되었다.',
+        content: '<iframe width="450" height="250" src="https://www.youtube.com/embed/svs4yKMWhY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen;></iframe> <img src="./project_img/M3_1.png" style = "width: 450px; margin-top: 40px;">',
         url1: 'https://www.notion.so/890c43dc856642d8a994bda202b668fd',
         url2: 'https://drive.google.com/drive/folders/1_6XI1Pu6S98vdizXO16vE7Pa54BuCHu1?usp=sharing'
     },
