@@ -1,14 +1,12 @@
 /* 필요한 css */
 
-
-/* @font-face {
+@font-face {
     font-family: 'NanumSquareRound';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-} */
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 .hidden {
     display: none !important;
 }
@@ -22,8 +20,7 @@ a {
 
 body {
     margin: 0;
-    /* font-family: 'NanumSquareRound'; */
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'NanumSquareRound';
 }
 
 
@@ -50,8 +47,7 @@ body {
     animation: FadeIn 2s;
     animation-fill-mode: forwards;
     text-shadow: -1px -1px 0px white, 3px 3px 0px #A2AABD, 6px 6px 0px #818796;
-    /* font-family: 'NanumSquareRound'; */
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'NanumSquareRound';
 }
 
 .text span {
@@ -81,8 +77,7 @@ body {
     animation: FadeIn 2s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
-    /* font-family: 'NanumSquareRound'; */
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'NanumSquareRound';
 }
 
 @keyframes FadeIn {

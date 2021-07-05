@@ -1,5 +1,87 @@
+.body1 {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 파일 시작 */
+
+
+/* 위쪽 div*/
+
+.BigBox {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* 위쪽*/
+
 .Box {
-    border: #e7c4c4 solid 1px;
+    color: white;
+    border-radius: 10px 17px 0px 0px;
     width: 200px;
-    height: 200px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Box p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.M1 {
+    background-color: #d6c2e4;
+}
+
+.M2 {
+    background-color: #c4e2d5;
+}
+
+.M4 {
+    background-color: #e8bfd5;
+}
+
+.boxBt {
+    background-color: #d6c2e4;
+    width: 800px;
+    height: 12px;
+    border-radius: 0px 20px 0px 0px;
+}
+
+
+/* 위쪽 끝*/
+
+.con_ {
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    overflow: scroll;
+    padding: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.text {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 700;
+    color: grey;
 }

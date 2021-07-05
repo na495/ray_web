@@ -1,5 +1,5 @@
 var project = [{
-        img: './project/project_img/test.jpeg',
+        img: './project/project_img/img/1.jpeg',
         class: "M1",
         day: '2020Y 1M',
         title: '사회 풍자를 배우고 직접 글을 써보자',
@@ -12,7 +12,7 @@ var project = [{
         url2: 'https://drive.google.com/drive/folders/1LbDxVGD49A05_jBm87iTJz_u5X1G8wt1?usp=sharing'
     },
     {
-        img: './project/project_img/test.jpeg',
+        img: './project/project_img/img/2.jpeg',
         class: "M2",
         day: '2020Y 2M',
         title: '인포그래픽을 만들어 보자',
@@ -30,7 +30,7 @@ var project = [{
         url2: 'https://drive.google.com/drive/folders/1I630iAvrYnXHrSSp1SPvQSfML68Vb5PQ?usp=sharing'
     },
     {
-        img: './project/project_img/test.jpeg',
+        img: './project/project_img/img/3.jpeg',
         class: "M3",
         day: '2020Y 3M',
         title: '에프터 이펙트로 동영상 만들기',
@@ -45,7 +45,7 @@ var project = [{
 ]
 
 var project2 = [{
-        img: './project/project_img/test.jpeg',
+        img: './project/project_img/img/4.jpeg',
         class: "M1",
         day: '2020Y 1M',
         title: '바이러스로 인한 우리의 대처와 변화',
@@ -58,7 +58,7 @@ var project2 = [{
         url2: 'https://drive.google.com/drive/folders/1LbDxVGD49A05_jBm87iTJz_u5X1G8wt1?usp=sharing'
     },
     {
-        img: './project/project_img/test.jpeg',
+        img: './project/project_img/img/5.jpeg',
         class: "M2",
         day: '2020Y 2M',
         title: '일하는 모든 노동자는 공정한 대우를 받고 있을까?',
@@ -71,20 +71,20 @@ var project2 = [{
         url2: 'https://drive.google.com/drive/folders/1I630iAvrYnXHrSSp1SPvQSfML68Vb5PQ?usp=sharing'
     },
     {
-        img: './project/project_img/test.jpeg',
+        img: './project/project_img/img/6.jpeg',
         class: "M3",
         day: '2020Y 3M',
         title: '첫 번째 V.LAB',
-        why: '디자인과 영상제작에 흥미가 생겨 V.Lab에 가게 되었다. 또한 알파랩을 간 적이 없어,기존의 혜화랩이 아닌 새로운 교육과정을 경험하고 싶어 V.Lab에 가게 되었다.',
+        why: '디자인과 영상제작에 흥미가 생겼고, 새로운 교육과정을 경험하고 싶어 V.Lab에 가게 되었다.',
         how: 'V.Lab은 영상 제작, 인디자인, 조형의 과정, 편집 디자인, 단편영화 영상편집과 청강으로 이뤄졌다. 청강은 실제 대안 대학교에서 듣는 수업을 경험해보았다.',
         what: '단편영화 수업에서 만든 영화를 사람들에게 보여드리고, 직접 잡지를 만들어보고, 실크스크린을 이용하여 에코백을 제작하며 이 과정에서 느낀 소감과 배움을 정리하여 팀원과 함께 발표를 하였다.',
-        text: '디자인과 예술에 대해 다양한 실습과 이론을 배운 것 같고, 또한 인디자인과 영상편집 기술을 배우는 새로움 경험이 되어 즐거웠다. ',
+        text: '디자인과 예술에 대해 다양한 실습과 이론을 배운 것 같고, 또한 인디자인과 영상편집 기술을 배우는 새로운 경험이 되어 즐거웠다. ',
         content: '',
         url1: 'https://www.notion.so/V-3b9eba0a3cc74637b701ab2429362760',
         url2: 'https://drive.google.com/drive/folders/1_6XI1Pu6S98vdizXO16vE7Pa54BuCHu1?usp=sharing'
     },
     {
-        img: './project/project_img/test.jpeg',
+        img: './project/project_img/img/7.jpeg',
         class: "M4",
         day: '2020Y 4M',
         title: '도시브랜딩',
@@ -97,20 +97,46 @@ var project2 = [{
         url2: 'https://drive.google.com/drive/folders/13tp8OVOzAI9jKh_IE3YRFDNQXsgzRuFL?usp=sharing'
     },
     {
-        img: './project/project_img/test.jpeg',
+        img: './project/project_img/img/8.jpeg',
         class: "M1",
         day: '2021Y 1M',
         title: '두 번째 V.LAB',
-        why: '',
-        how: '',
-        what: '',
-        text: '',
+        why: '저번 첫번쨰 V.LAB에서도 인디자인이나 영상 제작을 배웠지만 부족함이 있어서 새로운 교육과정으로 진행되는 V.LAB을 다시 가게 되었다.',
+        how: '이번 V.LAB에서는 독립출판, 일러스트, 포토샵, 사진 디자인의 목적과 기술 활용에 집중하여 수업을 진행하였다.',
+        what: '독립출판 학습과 일러스트 학습을 접목하여 나만의 독립출판물을 제작하였다.',
+        text: '디자인의 목적과 필요성에 대한 내용을 배울 수 있었고, 일러스트나 포토샵 같은 기술 활용도 보다 늘어날 수 있던 모듈이었다. ',
         content: '',
         url1: 'https://www.notion.so/2021Y-1M-505b54d619a44660856ab5981ea540f6',
         url2: 'https://drive.google.com/drive/folders/1Mg4xr1ypggLYWZi3wrcnQmRTWNyps_Qv?usp=sharing'
     },
 ]
 
-var project3 = [{
-
-}, ]
+var Teamproject = [{
+        title: '길가에 침을 뱉는 사람이 주변사람들에게 피해를 준다.',
+        why: '사람들이 많이 다니는 길가에 가래나 침이 뱉어져있는 것이 문제라고 느꼈다.',
+        how: '길가에 침을 뱉는 사람이 주변사람들에게 피해를 준다.라는 주제 문장을 정하고 사람들이 침을 뱉는 원인에 대해 조사했다.',
+        what: '사람들이 침을 뱉는 원인은 낮은 인식이라고 생각하여 인식을 바꾸기 위해 바스터나 광고 등의 해결방안을 고민해보았다.',
+        text: '처음하는 문제정의라 그런지 문제 찾기에서 시간을 많이 소요하게되었고, 문제의 원인 조사에서 자료 조사가 부족했었던 것 같다.',
+        content: `
+            
+        `,
+        color: '#bcabc9',
+    }, {
+        title: '버려지는 식량 자원 부활 프로젝트',
+        why: '',
+        how: '',
+        what: '',
+        text: '',
+        content: '',
+        color: '#b2cfc2',
+    },
+    {
+        title: '학교에서의 성교육이 학생들에게 필요한 정보를 제공해주지 못하는 것이 문제다.',
+        why: '',
+        how: '',
+        what: '',
+        text: '',
+        content: '',
+        color: '#d4abc1',
+    },
+]

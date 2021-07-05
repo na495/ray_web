@@ -1,10 +1,9 @@
 // 배열 표시
 
-console.log(project)
 for (var i in project) {
     var PJ = project[i];
     document.querySelector('.num1').innerHTML +=
-        `<div class="swiper-slide ${PJ.class}" style="background-image: url('${PJ.img}');" onClick="location.href='./project/project_text.html?index=${i}&category=-1'">
+        `<div class="swiper-slide ${PJ.class}" style = "background-image: url('${PJ.img}');"onClick="location.href='./project/project_text.html?index=${i}&category=-1'">
             <p class="slide_title">${PJ.day}</p>
             <div class="text_Box">
                 <p>${PJ.title}<i class="fas fa-arrow-right"></i></p>
@@ -14,7 +13,7 @@ for (var i in project) {
 for (var i in project2) {
     var PJ2 = project2[i];
     document.querySelector('.num2').innerHTML +=
-        `<div class="swiper-slide ${PJ2.class}" style="background-image: url('${PJ2.img}');" onClick="category=-1;location.href='./project/project_text.html?index=${i}&category=1'">
+        `<div class="swiper-slide ${PJ2.class}" style = "background-image: url('${PJ2.img}');" style="background-image: url('${PJ2.img}');" onClick="category=-1;location.href='./project/project_text.html?index=${i}&category=1'">
             <p class="slide_title">${PJ2.day}</p>
             <div class="text_Box">
                 <p>${PJ2.title}<i class="fas fa-arrow-right"></i></p>

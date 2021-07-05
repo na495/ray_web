@@ -50,6 +50,7 @@ section {
     -webkit-align-items: center;
     align-items: center;
     cursor: pointer;
+    background-size: cover;
 }
 
 .swiper-container-vertical>.swiper-pagination-bullets {
@@ -83,7 +84,8 @@ section {
     top: 5px;
     left: 5px;
     font-size: 30px;
-    color: white;
+    visibility: hidden;
+    color: rgb(80, 80, 80);
 }
 
 .text_Box {
@@ -92,32 +94,33 @@ section {
     bottom: 40px;
     text-align: left;
     font-size: 20px;
-    color: white;
+    color: rgb(80, 80, 80);
 }
 
 .fa-arrow-right {
     font-size: 15px;
     margin-left: 10px;
-    color: white;
+    color: rgb(80, 80, 80);
 }
 
 
 /* 호버하면  */
 
-.swiper-slide:hover {
-    opacity: 60%;
+.swiper-slide:hover>.slide_title {
+    visibility: inherit;
 }
 
 .swiper-slide:hover>.text_Box {
     visibility: inherit;
 }
 
-
-/*이미지 */
-
-.M1,
-.M2,
-.M3,
-.M4 {
-    background-size: cover;
+.swiper-slide:hover::before {
+    content: "";
+    opacity: 0.7;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(243, 243, 243);
 }
