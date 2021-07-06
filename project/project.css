@@ -125,6 +125,6 @@ section {
     background-color: rgb(243, 243, 243);
 }
 
-.swiper-slide:hover {
-    border: black 1px inset;
+.swiper-slide:active {
+    transform: translateY(10px);
 }
