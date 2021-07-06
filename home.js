@@ -4,6 +4,8 @@ var span = document.querySelector('span');
 var title_div = document.querySelector('.title_div');
 var title_img = document.querySelector('.title_img');
 
+var container = document.querySelector('.container');
+
 
 
 //스크롤을 내릴 때 발생하는 이벤트
@@ -16,11 +18,14 @@ window.addEventListener('scroll', function() {
         title_div.style.visibility = "hidden"
         text.style.display = "none"
 
-        if (scrollLocation > 1700) {
+        if (scrollLocation > 786) {
             section.style.display = "none"
+            container.style.visibility = "visible"
+
 
         } else {
             section.style.display = "block"
+            container.style.visibility = "hidden"
         }
     } else {
         title_div.style.visibility = "visible"

@@ -134,19 +134,20 @@ body {
 /* 1섹션 */
 
 .container {
+    visibility: hidden;
     position: relative;
-    margin-top: 110vh;
     background: #b7c0d6;
-    /* height: 55vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 5%;
+    padding-top: 30vh;
     text-shadow: -1px -1px 0px white, 2px 2px 0px #A2AABD, 3px 3px 0px #818796;
 }
 
 .ABOUT {
+    margin-top: 50vh;
     margin-left: 10%;
     width: 100%;
     display: flex;
