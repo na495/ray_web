@@ -124,3 +124,7 @@ section {
     bottom: 0px;
     background-color: rgb(243, 243, 243);
 }
+
+.swiper-slide:hover {
+    border: black 1px inset;
+}
