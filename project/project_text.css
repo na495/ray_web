@@ -106,6 +106,13 @@ body {
     height: 60px;
     padding: 10px;
     margin-bottom: 30px;
+    margin-bottom: 30px;
+    box-shadow: 2px 4px rgb(194, 194, 194);
+}
+
+.url div:active {
+    box-shadow: 1px 2px rgb(194, 194, 194);
+    transform: translateY(4px);
 }
 
 .google {

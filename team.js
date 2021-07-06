@@ -48,5 +48,15 @@ function a() {
         <p style="color:${TP.color};">느낀 점</p><br>
         <p class="me_ title">${TP.text}</p>
     </div>
-`;
+    ${TP.content}
+    <div class="url">
+        <div class="notion" onclick="window.open('${TP.url1}')">
+            <img src="./project/project_img/notion.jpg">
+            <p>NOTION</p>
+        </div>
+        <div class="google" onclick="window.open('${TP.url2}')">
+            <img src="./project/project_img/google.png">
+            <p>GOOGLE DRIVE</p>
+        </div>
+    </div>`
 }
