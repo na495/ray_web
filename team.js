@@ -6,6 +6,11 @@ var M4 = document.querySelector('.M4')
 
 var num = 0
 
+window.onload = function() {
+    num = 0
+    a()
+}
+
 M1.onclick = function() {
     Box.style.backgroundColor = "#d6c2e4"
     num = 0

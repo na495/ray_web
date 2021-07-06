@@ -29,15 +29,15 @@
 .Box {
     color: white;
     border-radius: 10px 17px 0px 0px;
-    width: 200px;
-    height: 35px;
+    width: 14vw;
+    height: 5vh;
     text-align: center;
     cursor: pointer;
 }
 
 .Box p {
     font-size: 20px;
-    line-height: 35px;
+    line-height: 5vh;
 }
 
 .M1 {
@@ -54,8 +54,8 @@
 
 .boxBt {
     background-color: #d6c2e4;
-    width: 800px;
-    height: 12px;
+    width: 56vw;
+    height: 1.5vh;
     border-radius: 0px 20px 0px 0px;
 }
 
@@ -63,8 +63,8 @@
 /* 위쪽 끝*/
 
 .con_ {
-    width: 800px;
-    height: 400px;
+    width: 56vw;
+    height: 50vh;
     background-color: white;
     border-radius: 0px 0px 20px 20px;
     overflow: scroll;
