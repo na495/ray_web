@@ -35,7 +35,7 @@ var project = [{
         day: '2020Y 3M',
         title: '에프터 이펙트로 동영상 만들기',
         why: '정적 인포그래픽을 배운 2모듈에서 정적인 인포그래픽에서 벗어나 동적인 인포그래픽을 제작해보고 싶었고 동영상 형태의 인포그래픽인 모션그래픽을 제작해보기로 하였다.',
-        how: '사최와 관련된 음식물 쓰레기 문제에대해 조사를 진행하고, 모션그래픽에 대해 학습해보았다. 또한 모션그래픽에 대해 학습하며 몇개의 영상을 제작해보았다.',
+        how: '사최와 관련된 음식물 쓰레기 문제에 대해 조사를 진행하고, 모션그래픽에 대해 학습해보았다. 또한 모션그래픽에 대해 학습하며 몇개의 영상을 제작해보았다.',
         what: '한 모듈 동안 조사한 음식물 쓰레기에 대한 문제점을 정리하여 보여주고, 음식물 쓰레기 문제를 담아낸 모션그래픽을 제작하여 발표하였다.',
         text: '모션그래픽을 만들기 위해 사용한 에프터 이펙트를 조금이나마 익혀보고 사용해 봐서 좋았던 것 같고, 사최와 연계하여 진행하여 더 깊이 있는 학습을 하게 된 것 같고, 모션그래픽을 보면 그냥 멋있네만 느꼈는데 직접 만들어보니 이 결과물을 만드는 과정에서 얼마나 많은 노력이 있엇는지를 배울 수 있게 되었다.',
         content: '<iframe width="450" height="250" src="https://www.youtube.com/embed/svs4yKMWhY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen;></iframe> <img src="./project_img/M3_1.png" style = "width: 450px; margin-top: 40px;">',
